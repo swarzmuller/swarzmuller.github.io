@@ -97,24 +97,25 @@ Error generating stack: `+o.message+`
   text-decoration: none;
   color: #121212;
 `,RP=se`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 16px;
   width: 100%;
   margin: 0;
   padding: 0;
+   @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `,AP=se`
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  max-width: 49%;
   background: #f2f6ff;
   padding: 12px;
   border-radius: 8px;
 
   @media (max-width: 768px) {
-    flex: 100%;
     max-width: 100%;
   }
 `,LP=se`
