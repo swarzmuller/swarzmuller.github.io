@@ -100,13 +100,14 @@ Error generating stack: `+o.message+`
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  width: 100%;
   margin: 0;
   padding: 0;
 `,AP=se`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex: 49%;
+  flex: 1;
   max-width: 49%;
   background: #f2f6ff;
   padding: 12px;
